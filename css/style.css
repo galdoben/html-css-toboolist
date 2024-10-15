@@ -35,11 +35,13 @@ h1{
 
 
 main .header-bottom .add-task{
-    padding: 9px;
+    color: white;
+    background-color: #64d0e1;
+    padding: 5px;
     display: inline-block;
     border: 7px solid;
-    border-bottom-color: #5ec967;
-    border-bottom-style:groove;
+    border-bottom-color: #d885bc;
+    border-bottom-style:dashed;
     border-radius: 15px;
     margin-top: 20px;
     margin-left: 37px;
@@ -47,48 +49,63 @@ main .header-bottom .add-task{
     }
 
     main .header-bottom .add-section{
-        padding: 9px;
+        color: lightgray;
+        background-color: white;
+        padding: 5px;
         display: inline-block;
         border: 7px solid;
-        border-bottom-color: #5ec967;
-        border-bottom-style: groove;
+        border-bottom-color: #d885bc;
+        border-bottom-style:dashed;
         border-radius: 15px;
         margin-left: 10px;
         }
 
+        ul{
+            margin-top: 35px;
+        }
     ul,li{
         list-style: none;
         font-family: Arial, Helvetica, sans-serif;
     }
     
     .editorial{
-        border-bottom-color:aquamarine;
+        background-color:cornflowerblue;
+        border-bottom-color:cornflowerblue;
         border-radius: 23px;
         border-bottom-style:outset;
     }
 
     .goals{
-        border-bottom-color:aquamarine;
+        background-color: violet;
+        border-bottom-color:violet;
         border-radius: 23px;
         border-bottom-style:outset;
     }
     .recruiting{
-        border-bottom-color:aquamarine;
+        background-color:green;
+        border-bottom-color:green;
         border-radius: 23px;
         border-bottom-style:outset;
     }
     .mobile{
-        border-bottom-color:aquamarine;
+        background-color: orange;
+        border-bottom-color:orange;
         border-radius: 23px;
         border-bottom-style:outset;
     }
     .website{
-        border-bottom-color:aquamarine;
+        background-color: rosybrown;
+        border-bottom-color:rosybrown;
         border-radius: 23px;
         border-bottom-style:outset;
     }
     .sales{
-        border-bottom-color:aquamarine;
+        background-color: lightgreen;
+        border-bottom-color:lightgreen;
         border-radius: 23px;
         border-bottom-style:outset;
     }
+    ul button{
+        color:white;
+    }
+  
