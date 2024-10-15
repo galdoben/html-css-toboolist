@@ -1,0 +1,18 @@
+.logo{
+    max-width: 100px;
+    margin: 0 auto;
+    left: 30px;
+}
+
+
+h1{
+    font-style:sans-serif;
+
+}
+.title{
+    position:absolute;
+    top:0;
+    left: 30px;
+    height: 72px;
+    width: 170px;
+}
